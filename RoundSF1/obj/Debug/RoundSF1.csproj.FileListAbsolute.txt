@@ -1,0 +1,17 @@
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\bin\Debug\RoundSF1.exe.config
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1.csprojResolveAssemblyReference.cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\MainWindow.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\ShowWindow.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\App.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1_MarkupCompile.cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1_MarkupCompile.lref
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\bin\Debug\RoundSF1.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\bin\Debug\RoundSF1.pdb
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\bin\Debug\PointViewerUtility.dll
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\MainWindow.baml
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\ShowWindow.baml
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1.g.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1.Properties.Resources.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1.csproj.GenerateResource.Cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\RoundSF1\obj\Debug\RoundSF1.pdb

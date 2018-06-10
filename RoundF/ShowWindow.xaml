@@ -1,0 +1,79 @@
+﻿<Window x:Class="RoundF.ShowWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoundF"
+        mc:Ignorable="d"
+        Title="ShowWindow" SizeToContent="WidthAndHeight">
+    <Window.Resources>
+        <Style x:Key="PlayerPanel" TargetType="StackPanel">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Width" Value="180"/>
+            <Setter Property="Height" Value="400"/>
+            <Setter Property="Margin" Value="5, 0, 5, 0"/>
+            <!--Value="{Binding Path=DataContext.sdv.Pl_Width, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}},
+                Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>-->
+        </Style>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Noto Sans CJK JP, 源真ゴシック"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid x:Name="ShowWindowPanel"
+          Height="450" Width="800" Background="Black" 
+          HorizontalAlignment="Left" VerticalAlignment="Top">
+        <ItemsControl ItemsSource="{Binding playerVM}" Margin="20, 25, 20, 25">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Style="{StaticResource PlayerPanel}">
+                        <StackPanel.Resources>
+                            <Style BasedOn="{StaticResource TextBlockStyle}" TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="Foreground" Value="{Binding TextColor, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+                            </Style>
+                        </StackPanel.Resources>
+
+                        <Viewbox Height="60" Stretch="Fill" StretchDirection="DownOnly"
+                                 Margin="0, 20, 0, 20">
+                            <TextBlock Text="{Binding Player.TeamName, Mode=OneTime}" FontSize="45"/>
+                        </Viewbox>
+                        <Line Stroke="{Binding TextColor, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                              StrokeThickness="6" X1="0" Y1="0" X2="180" Y2="0"/>
+
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly"
+                                 HorizontalAlignment="Left">
+                            <TextBlock Text="{Binding Player.Player1, Mode=OneTime}" FontSize="30"/>
+                        </Viewbox>
+                        <TextBlock Text="{Binding OX1, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                           FontSize="20"
+                                           HorizontalAlignment="Left"/>
+                        
+                        <TextBlock Text="{Binding TeamP, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                   FontSize="60"/>
+                        
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly"
+                                 HorizontalAlignment="Right">
+                            <TextBlock Text="{Binding Player.Player2, Mode=OneTime}" FontSize="30"/>
+                        </Viewbox>
+                        <TextBlock Text="{Binding OX2, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                           FontSize="20"
+                                   HorizontalAlignment="Right"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            <ItemsControl.ItemContainerStyle>
+                <Style>
+
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+        </ItemsControl>
+    </Grid>
+</Window>

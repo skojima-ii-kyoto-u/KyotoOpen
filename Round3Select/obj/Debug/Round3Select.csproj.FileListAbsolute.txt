@@ -1,0 +1,14 @@
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\bin\Debug\Round3Select.exe.config
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select.csprojResolveAssemblyReference.cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\MainWindow.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\App.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select_MarkupCompile.cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select_MarkupCompile.lref
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\bin\Debug\Round3Select.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\bin\Debug\Round3Select.pdb
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\MainWindow.baml
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select.g.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select.Properties.Resources.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select.csproj.GenerateResource.Cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3Select\obj\Debug\Round3Select.pdb

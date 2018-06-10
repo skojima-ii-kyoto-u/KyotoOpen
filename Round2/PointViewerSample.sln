@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointViewerSample", "PointViewerSample.csproj", "{8A408DFC-619F-4186-A046-52420949FC83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2R", "..\2R\2R.csproj", "{8C3D1471-D460-4DB1-A19C-262B86937E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointViewerUtility", "..\PointViewerUtility\PointViewerUtility.csproj", "{1FC1CF98-E964-4470-8734-86E9455F5447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleTester", "..\RuleTester\RuleTester.csproj", "{139D25FE-DC74-46A8-9E7A-FEC4AEC4929B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A408DFC-619F-4186-A046-52420949FC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A408DFC-619F-4186-A046-52420949FC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A408DFC-619F-4186-A046-52420949FC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A408DFC-619F-4186-A046-52420949FC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3D1471-D460-4DB1-A19C-262B86937E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3D1471-D460-4DB1-A19C-262B86937E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3D1471-D460-4DB1-A19C-262B86937E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3D1471-D460-4DB1-A19C-262B86937E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC1CF98-E964-4470-8734-86E9455F5447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC1CF98-E964-4470-8734-86E9455F5447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC1CF98-E964-4470-8734-86E9455F5447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC1CF98-E964-4470-8734-86E9455F5447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139D25FE-DC74-46A8-9E7A-FEC4AEC4929B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139D25FE-DC74-46A8-9E7A-FEC4AEC4929B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139D25FE-DC74-46A8-9E7A-FEC4AEC4929B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139D25FE-DC74-46A8-9E7A-FEC4AEC4929B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

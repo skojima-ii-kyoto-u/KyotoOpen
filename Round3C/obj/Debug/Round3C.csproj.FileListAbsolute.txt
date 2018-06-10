@@ -1,0 +1,17 @@
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\bin\Debug\Round3C.exe.config
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\bin\Debug\Round3C.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\bin\Debug\Round3C.pdb
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\bin\Debug\PointViewerUtility.dll
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\MainWindow.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\ShowWindow.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\App.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C_MarkupCompile.cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C_MarkupCompile.lref
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\MainWindow.baml
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\ShowWindow.baml
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C.g.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C.Properties.Resources.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C.csproj.GenerateResource.Cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C.pdb
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round3C\obj\Debug\Round3C.csprojResolveAssemblyReference.cache

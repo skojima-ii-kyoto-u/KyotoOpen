@@ -1,0 +1,129 @@
+﻿<Window x:Class="Round3Select.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Round3Select"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight"
+        Keyboard.KeyDown="WindowKeyDownHandler">
+    <Window.Resources>
+        <Style x:Key="CoursePanel" TargetType="StackPanel">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="Height" Value="400"/>
+            <Setter Property="Margin" Value="10, 0, 10, 0"/>
+        </Style>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Noto Sans CJK JP, 源真ゴシック"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid x:Name="MainPanel" 
+          Width="800" Height="450" Background="Black"
+          HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="400"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <ItemsControl Grid.Row="0"
+                      ItemsSource="{Binding courseVM}" Margin="0, 0, 0, 0">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Style="{StaticResource CoursePanel}">
+                        <StackPanel.Resources>
+                            <Style BasedOn="{StaticResource TextBlockStyle}" TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                            </Style>
+                        </StackPanel.Resources>
+                        <TextBlock Text="{Binding CourseName, Mode=OneTime}"
+                                   FontSize="30"/>
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly">
+                            <TextBlock Text="{Binding Team1, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                       FontSize="30"/>
+                        </Viewbox>
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly">
+                            <TextBlock Text="{Binding Team2, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                       FontSize="30"/>
+                        </Viewbox>
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly">
+                            <TextBlock Text="{Binding Team3, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                       FontSize="30"/>
+                        </Viewbox>
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly">
+                            <TextBlock Text="{Binding Team4, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                       FontSize="30"/>
+                        </Viewbox>
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly">
+                            <TextBlock Text="{Binding Team5, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                       FontSize="30"/>
+                        </Viewbox>
+                        <Viewbox Height="45" Stretch="Fill" StretchDirection="DownOnly">
+                            <TextBlock Text="{Binding Team6, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                       FontSize="30"/>
+                        </Viewbox>
+                        <Line Stroke="White" StrokeThickness="6"
+                              X1="0" Y1="10" X2="140" Y2="10"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            <ItemsControl.ItemContainerStyle>
+                <Style>
+
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+        </ItemsControl>
+
+        <WrapPanel Grid.Row="1">
+            <WrapPanel.Resources>
+                <Style BasedOn="{StaticResource TextBlockStyle}" TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="24"/>
+                </Style>
+            </WrapPanel.Resources>
+            <Viewbox Width="120" Height="40" Margin="10, 0, 10, 0"
+                     Stretch="Fill" StretchDirection="DownOnly">
+                <TextBlock Text="{Binding nextTeamsVM.Team1}" Foreground="Orange"/>
+            </Viewbox>
+            <Viewbox Width="25" Height="40" Margin="0, 0, 0, 0"
+                     Stretch="None">
+                <TextBlock Text="◀" FontSize="12" Foreground="Yellow"/>
+            </Viewbox>
+            <Viewbox Width="120" Height="40" Margin="10, 0, 10, 0"
+                     Stretch="Fill" StretchDirection="DownOnly">
+                <TextBlock Text="{Binding nextTeamsVM.Team2}"/>
+            </Viewbox>
+            <Viewbox Width="25" Height="40" Margin="0, 0, 0, 0"
+                     Stretch="None">
+                <TextBlock Text="◀" FontSize="12" Foreground="Yellow"/>
+            </Viewbox>
+            <Viewbox Width="120" Height="40" Margin="10, 0, 10, 0"
+                     Stretch="Fill" StretchDirection="DownOnly">
+                <TextBlock Text="{Binding nextTeamsVM.Team3}"/>
+            </Viewbox>
+            <Viewbox Width="25" Height="40" Margin="0, 0, 0, 0"
+                     Stretch="None">
+                <TextBlock Text="◀" FontSize="12" Foreground="Yellow"/>
+            </Viewbox>
+            <Viewbox Width="120" Height="40" Margin="10, 0, 10, 0"
+                     Stretch="Fill" StretchDirection="DownOnly">
+                <TextBlock Text="{Binding nextTeamsVM.Team4}"/>
+            </Viewbox>
+            <Viewbox Width="25" Height="40" Margin="0, 0, 0, 0"
+                     Stretch="None">
+                <TextBlock Text="◀" FontSize="12" Foreground="Yellow"/>
+            </Viewbox>
+            <Viewbox Width="120" Height="40" Margin="10, 0, 10, 0"
+                     Stretch="Fill" StretchDirection="DownOnly">
+                <TextBlock Text="{Binding nextTeamsVM.Team5}"/>
+            </Viewbox>
+        </WrapPanel>
+    </Grid>
+</Window>

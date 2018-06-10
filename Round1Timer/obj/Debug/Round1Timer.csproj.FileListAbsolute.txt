@@ -1,0 +1,16 @@
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\bin\Debug\Round1Timer.exe.config
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\bin\Debug\Round1Timer.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\bin\Debug\Round1Timer.pdb
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer.csprojResolveAssemblyReference.cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\MainWindow.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\ShowWindow.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\App.g.cs
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer_MarkupCompile.cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer_MarkupCompile.lref
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\MainWindow.baml
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\ShowWindow.baml
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer.g.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer.Properties.Resources.resources
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer.csproj.GenerateResource.Cache
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer.exe
+C:\Users\atuos\OneDrive\VisualStudio\KyotoOpen\Round1Timer\obj\Debug\Round1Timer.pdb

@@ -1,0 +1,16 @@
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\bin\Release\PointViewerSample.exe.config
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\bin\Release\PointViewerSample.exe
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\bin\Release\PointViewerSample.pdb
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample.csprojResolveAssemblyReference.cache
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\MainWindow.g.cs
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\App.g.cs
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample_MarkupCompile.cache
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample_MarkupCompile.lref
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\MainWindow.baml
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample.g.resources
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample.Properties.Resources.resources
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample.csproj.GenerateResource.Cache
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample.exe
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\obj\Release\PointViewerSample.pdb
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\bin\Release\PointViewerUtility.dll
+C:\Users\atuos\Dropbox\PointViewerUtility\PointViewerSample\bin\Release\PointViewerUtility.pdb
